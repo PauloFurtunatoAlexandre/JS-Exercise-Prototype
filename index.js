@@ -122,10 +122,11 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Default Binding - It will point to the current context.
+  2. Implicit Binding - The object before the point is the context of the binding.
+  3. Explicit Binding - When you explicitly say where to point the binding for example using call, apply and bind.
+  4. New Binding - An empty object binding using this variable, prototypes and methods added to the object and the newest created object
+  binding by this at the end implicitly (if no other object explicitly returned).
 */
 
 
